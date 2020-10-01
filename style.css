@@ -1,0 +1,146 @@
+html,body{
+	width:100%
+	height:100%;
+	scroll-behavior: smooth;
+}
+
+.top-section{
+	width:100%;
+	height: 300px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background:linear-gradient(to right, rgb(255, 79, 20), rgb(222, 56, 255));
+}
+
+.slist_img{
+      padding-right: 50px;
+}
+
+h1{
+    font-size:8vw;
+    text-transform: uppercase;
+}
+
+.container-fluid{
+	padding:0px 0px; /*to fill the body*/
+}
+.nav{
+	height:50px;
+	background:linear-gradient(to right, rgb(255, 214, 248), rgb(239, 158, 255));
+	font-size: 25px;
+	font-weight: bold;
+	border: 2px solid black;
+	position:fixed;
+	width: 100%;
+}
+
+.nav:hover{
+     background:linear-gradient(to right, rgb(251, 203, 243), rgb(239, 158, 255));
+}
+
+.nav-link{
+	color:#77258c;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+/*home section*/
+
+.home{
+	height:600px;
+	background:linear-gradient(to right, rgb(255, 255, 255), rgb(240, 240, 240));
+}
+.main-box{
+	height: 400px;
+	width: 600px;
+	border-radius:10px;
+	background:linear-gradient(to right, rgb(255, 255, 255), rgb(240, 240, 240));
+	-webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.main-box-1{
+	width: 100%;
+	height: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.tag1{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 25px;
+	font-style: italic;
+}
+.btn-outline-info{
+	font-size: 15px;
+	height: 50px;
+	width: 200px;
+}
+.ht{
+	height:150px;
+}
+.ht > p{
+	background-color: yellow;
+}
+
+/*instructions section*/
+.instructions{
+	  background:linear-gradient(to right, rgba(255, 79, 20, 0.8), rgba(222, 56, 255,0.8));
+}
+.userGtxt{
+	font-size: 50px;
+	font-family: fantasy;
+	text-align: center;
+}
+
+.gridflex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+.listimg{
+	height: 400px;
+	width: 400px;
+	padding: 50px 50px;
+}
+.guide_instructions > li{
+    font-size: 30px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+.guide_instructions{
+	height:100%;
+	width:100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*about section*/
+.about{
+	height: 400px;
+}
+.about > h1{
+    font-family: serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.about-info{
+	border: 1px inset black;
+	margin: 0vh 8vw;
+	margin-bottom: 6vh;
+	font-size: 3rem;
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}

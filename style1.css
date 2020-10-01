@@ -1,0 +1,75 @@
+li{
+	font-size:50px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+li:hover{
+	cursor: pointer;
+}
+.done{
+	text-decoration: line-through;
+	animation-name: done;
+	animation-duration: 0.4s;
+}
+
+@keyframes done{
+0%, 100%{transform: rotate(0deg);} 
+   20%, 60%{transform: rotate(-2deg);} 
+   40%, 80%{transform: rotate(2deg);} 
+}
+button{
+	margin-left: 20px;
+	height:60px;
+	width: 100px;
+	padding: 10px 20px;
+	padding-bottom: 0px;
+	background-color: violet;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+    
+}
+button:hover{
+	transition: transform 0.2s;
+	transform: scale(1.1);
+}
+body{
+	height: 100%;
+	/*width: 100%;*/
+	display: flex;
+	justify-content: center;
+	background:linear-gradient(to right, rgb(41, 246, 250), rgb(217, 2, 210));	
+}
+h1{
+	font-size: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#userinput{
+	font-family: Tahoma, Geneva, sans-serif;
+	padding: 10px 20px;
+	font-size: 30px;
+}
+
+ul{
+	background-color: #ff9e9e;
+	border: 1px solid black;
+	padding-left: 100px;
+}
+
+.input-zone{
+	padding: 0px 40px;
+}
+
+.mainlist{
+	border: 8px inset orange;	
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #fdd0d0;
+	-webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+	
+}
