@@ -73,3 +73,19 @@ ul{
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 	
 }
+.div-btn{
+	display: flex;
+	justify-content: flex-start;
+}
+#btn1{
+    margin-left: 20px;
+	height:60px;
+	width: 100px;
+	padding: 10px 20px;
+	padding-bottom: 0px;
+	background-color: #d77bbf;
+	border-radius: 10px;
+	outline: none;
+	font-size: 20px;
+	font-family:"Comic Sans MS", curxsive, sans-serif;
+} 
